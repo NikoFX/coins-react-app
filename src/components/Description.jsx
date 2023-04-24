@@ -20,8 +20,8 @@ function Description() {
     <div className="desc-container">
       <div className="description">
         <div className="description__left">
-          <img src={`http://localhost:8080/img/${coin.obverse_image}.png`} alt="img" className="description__img" />
-          <img src={`http://localhost:8080/img/${coin.reverse_image}.png`} alt="img" className="description__img" />
+          <img src={`https://coin-app-server-api.vercel.app/src/img/${coin.obverse_image}.png`} alt="img" className="description__img" />
+          <img src={`https://coin-app-server-api.vercel.app/src/img/${coin.reverse_image}.png`} alt="img" className="description__img" />
         </div>
         <div className="description__right">
           <h1 className="description__title">{coin.name}</h1>

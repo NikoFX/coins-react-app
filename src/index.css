@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  margin-top: 50px;
+  max-width: 1140px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+nav{
+  z-index: 3;
+}
+
+.btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition-duration: .2s;
+}
+
+.primary {
+  color: white;
+  background-color: blueviolet;
+}
+
+.primary:hover {
+  filter: brightness(120%);
+}
+
+.nav__form-input {
+  padding: 7px;
+  width: 250px;
+  margin-right: 20px;
+}
+
+#nav__adv-filter {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.coin-catalog {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+}
+
+.coin-card__link{
+  color: black;
+  text-decoration: none;
+}
+
+.coin-card__img{
+  transition-duration: .5s;
+  transform: rotateY(0deg)
+}
+
+.c-coin-card {
+  width: 200px;
+  
+}
+.coin-card:hover .coin-card__img{
+  transform: rotateY(360deg)
+}
+
+#c-coin-card__btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.c-coin-card__img {
+  width: 100%;
+}
+
+.list-of-coins {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+
+.coin-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 400px;
+}
+
+
+.coin-card__img {
+  width: 30%;
+  height: 100%;
+}
+
+.coin-card__typography {
+  width: 70%;
+  padding-left: 30px;
+}
+
+.coin-card__title {
+  padding: 0;
+  margin: 0;
+}
+
+.coin-card__info {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.adv-filter__form {
+  margin-top: 30px;
+  width: 600px;
+  display: flex;
+  gap: 30px;
+}
+
+.adv-filter__left {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.adv-filter__right {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input-title{
+  font-size: .75em;
+  font-weight: 700;
+}
+
+.adv-filter__form select,
+.adv-filter__form input {
+  width: 100%;
+  padding: 10px;
+}

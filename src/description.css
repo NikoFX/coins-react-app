@@ -1,0 +1,32 @@
+.desc-container {
+    margin-inline: auto;
+    max-width: 900px;
+}
+
+.description {
+    display: flex;
+    width: 100%;
+}
+
+.description__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+.description__p, .description__table {
+    font-size: .9em;
+}
+
+.description__img {
+    width: 300px;
+}
+
+.description__table{
+    width: 100%;
+}
+
+td{
+    width: 50%;
+}

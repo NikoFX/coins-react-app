@@ -23,7 +23,8 @@ Coins App
 
 Coins App showcases a collection of exclusive and commemorative coins from different countries around the world. The app provides users with the ability to explore the details of each coin, including its history, rarity, and value.
 
-At the backend [API](https://github.com/NikoFX/coin-app-server-api), used express and mysql.
+At the backend [API](https://github.com/NikoFX/coin-app-server-api), used express and mysql. 
+
 [repository link](https://github.com/NikoFX/coin-app-server-api)
 
 

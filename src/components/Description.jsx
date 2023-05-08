@@ -55,12 +55,12 @@ function Description() {
                 <td>{coin.weight} mg</td>
               </tr>
               <tr>
-                <td>Issuin country</td>
-                <td>Canada</td>
+                <td>Year</td>
+                <td>{coin.year}</td>
               </tr>
               <tr>
-                <td>Issuin country</td>
-                <td>Canada</td>
+                <td>Denomination</td>
+                <td>{coin.denomination}</td>
               </tr>
             </tbody>
           </table>
